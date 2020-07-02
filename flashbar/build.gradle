@@ -12,14 +12,14 @@ ext {
 
     libraryDescription = 'Flashbar fork'
 
-    siteUrl = 'https://github.com/aritraroy/Flashbar'
-    gitUrl = 'https://github.com/aritraroy/Flashbar.git'
+    siteUrl = 'https://github.com/elek90/Flashbar'
+    gitUrl = 'https://github.com/elek90/Flashbar.git'
 
     libraryVersion = '1.0.2'
 
-    developerId = 'aritraroy'
-    developerName = 'Aritra Roy'
-    developerEmail = 'aritra.roy.in@gmail.com'
+    developerId = 'elek90'
+    developerName = 'Alexander Murillo'
+    developerEmail = 'alexandersalemander@gmail.com'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'

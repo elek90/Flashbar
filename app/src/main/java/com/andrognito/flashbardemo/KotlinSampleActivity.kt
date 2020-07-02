@@ -21,7 +21,7 @@ class KotlinSampleActivity : AppCompatActivity() {
 
         show.setOnClickListener {
             if (flashbar == null) {
-                flashbar = basic()
+                flashbar = messageBasic()
             }
             flashbar?.show()
         }
@@ -33,7 +33,7 @@ class KotlinSampleActivity : AppCompatActivity() {
 
     private fun basic(): Flashbar {
         return Flashbar.Builder(this)
-                .gravity(Flashbar.Gravity.BOTTOM)
+                .gravity(Flashbar.Gravity.TOP)
                 .message("This is a basic flashbar")
                 .build()
     }
