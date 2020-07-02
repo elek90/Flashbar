@@ -3,14 +3,14 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'flashbar'
+    bintrayRepo = 'Android'
+    bintrayName = 'Flashbar'
 
-    publishedGroupId = 'com.andrognito.flashbar'
+    publishedGroupId = 'dk.eleknet.android'
     libraryName = 'flashbar'
     artifact = 'flashbar'
 
-    libraryDescription = 'A highly customizable, powerful and easy-to-use alerting library for Android.'
+    libraryDescription = 'Flashbar fork'
 
     siteUrl = 'https://github.com/aritraroy/Flashbar'
     gitUrl = 'https://github.com/aritraroy/Flashbar.git'
@@ -44,5 +44,4 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin"
 }
 
-apply from: 'https://raw.githubusercontent.com/aritraroy/LibUtils/master/install.gradle'
-apply from: 'https://raw.githubusercontent.com/aritraroy/LibUtils/master/upload.gradle'
+apply from: 'publish.gradle'
